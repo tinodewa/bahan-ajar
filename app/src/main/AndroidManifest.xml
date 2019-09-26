@@ -4,20 +4,43 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/smartphone"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/smartphone"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Pdf_View"></activity>
-        <activity android:name=".ListActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Teks_Strukturnya_Narasi"></activity>
+        <activity android:name=".Teks_Strukturnya_Eksposisi" />
+        <activity android:name=".Teks_Strukturnya_Eksplanasi" />
+        <activity android:name=".Teks_Strukturnya_Deskripsi" />
+        <activity android:name=".Keterampilan_Berbahasa_Berbicara" />
+        <activity android:name=".Keterampilan_Berbahasa_Menyimak" />
+        <activity android:name=".Keterampilan_Berbahasa_Menulis" />
+        <activity android:name=".Keterampilan_Berbahasa_Membaca" />
+        <activity android:name=".Teks_Strukturnya" />
+        <activity android:name=".Keterampilan_Berbahasa" />
+        <activity android:name=".Komponen_Bahasa_Semantik" />
+        <activity android:name=".Komponen_Bahasa_Sintaksis" />
+        <activity android:name=".Komponen_Bahasa_Morfologi" />
+        <activity android:name=".Orientasi_Materi" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Komponen_Bahasa_Fonologi" />
+        <activity android:name=".Komponen_bahasa" />
+        <activity
+            android:name=".Splash_Screen"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

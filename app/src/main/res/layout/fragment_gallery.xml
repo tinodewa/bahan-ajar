@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="#EFFAFF"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/university"
+            android:contentDescription="University"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titis Angga Rini, S.Pd, M.Pd"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="#111111"
+            android:textFontWeight="500"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dosen Fakultas Ilmu Pendidikan"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textColor="#61111111"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Universitas Negeri Malang"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textColor="#61111111"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Fonologi adalah ilmu yang mengkaji perbendaharaan bunyi-bunyi bahasa yang ditunjukkan dengan simbol tertentu."
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="#4A4A4A"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Fonologi sendiri memiliki dua bagian kajian keilmuan yang tediri atas fonetik dan fonemik."
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="#4A4A4A"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
