@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Konsep Dasar Bahasa"
+            android:text="Konsep Dasar B.Indo"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textColor="#000000"
@@ -32,7 +32,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:text="Universitas Negeri Malang Fakulstas Ilmu Pendidikan"
+            android:text="Rangkuman Materi Universitas Malang Fakultas"
             android:textSize="14sp"
             android:textColor="#61000000"/>
 

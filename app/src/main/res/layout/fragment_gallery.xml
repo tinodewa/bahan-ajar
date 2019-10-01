@@ -32,7 +32,37 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Tim Pengembang"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="#61111111"
+            android:textFontWeight="500"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Titis Angga Rini, S.Pd, M.Pd"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="#111111"
+            android:textFontWeight="500"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prof. Dr. Sa'dun Akbar, M.Pd"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="#111111"
+            android:textFontWeight="500"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rosyidamayani T M, S.Psi, M.Pd"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textColor="#111111"
@@ -42,7 +72,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dosen Fakultas Ilmu Pendidikan"
+            android:text="Universitas Negeri Malang"
             android:textAlignment="center"
             android:textSize="14sp"
             android:textColor="#61111111"/>
@@ -50,7 +80,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Universitas Negeri Malang"
+            android:text="Fakultas Ilmu Pendidikan"
             android:textAlignment="center"
             android:textSize="14sp"
             android:textColor="#61111111"
@@ -59,16 +89,16 @@
         <TextView
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="Fonologi adalah ilmu yang mengkaji perbendaharaan bunyi-bunyi bahasa yang ditunjukkan dengan simbol tertentu."
+            android:text="Jurusan Kependidikan Guru Sekolah Dasar"
             android:textAlignment="center"
             android:textSize="15sp"
             android:textColor="#4A4A4A"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="5dp"/>
 
         <TextView
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="Fonologi sendiri memiliki dua bagian kajian keilmuan yang tediri atas fonetik dan fonemik."
+            android:text="Tahun 2019"
             android:textAlignment="center"
             android:textSize="15sp"
             android:textColor="#4A4A4A"
