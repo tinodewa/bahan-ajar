@@ -38,9 +38,73 @@
 
     </LinearLayout>
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/pdf_ipa_biologi"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:overScrollMode="always">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bahasa merupakan sebuah simbol yang dipelajari manusia untuk berkomunikasi. Ilmu yang mempelajari bahasa disebut dengan linguistik. Bahasa dibedakan menjadi bahasa tulis, lisan, dan isyarat. Bahasa dikuasai individu melalui sebuah proses pemerolehan yang melibatkan berbagai komponen berbahasa. Komponen berbahasa ini terdiri atas (a) fonologi, (b) morfologi, (c) semantik, dan (d) sintaksis. Setiap komponen ini saling berhubungan dalam membentuk kemampuan individu untuk menggunakan sebuah bahasa. Setiap komponen ini diperoleh individu secara bertahap sebagai berikut."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/materi_orientasi_1"
+                android:contentDescription="materi orientasi"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Setiap tahap ini dilalui inividu dan membentuk kesadaran dalam berbahasa sesuai dengan sistem suatu bahasa. Sebagai contoh sistem sintaksis bahasa Indonesia berbeda dengan sistem sintaksis bahasa Inggris. Masyarakat yang berbahasa Indonesia akan menguasai sistem sintaksis bahasa Indonesia dan menggunakannya untuk komunikasi. Sedangkan masyarakat  yang berbahasa Inggris akan fasih berkomunikasi dengan bahasa Inggris sesuai sistem sintaksisnya."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selama melalui tahap-tahap ini, individu akan membutuhkan keterampilan dalam berbahasa yang terdiri atas (a) keterampilan menyimak, (b) berbicara, (c) membaca, dan (d) menulis. Keempat keterampilan ini saling berkaitan untuk digunakan dalam memperoleh bahasa."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/materi_orientasi_2"
+                android:contentDescription="materi orientasi"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selama proses pemerolehan bahasa, keempat keterampilan ini akan digunakan secara komprehensif sesuai sifatnya. Setelah membaca individu dapat mengungkapkan gagasannya dengan berbicara atau menulis, maupun setelah menyimak individu dapat mengungkapkan gagasannya dengan berbicara atau menulis sehingga terjadi proses reseptif dan produktif dalam berkomunikasi."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pada konteks komunikasi yang lebih luas, selanjutnya individu akan mengenal berbagai jenis teks untuk menyampaikan gagasannya. Berbagai jenis teks ini digunakan sesuai tujuannya untuk menyampaikan informasi dalam bentuk tertulis yang juga dapat disampaikan secara lisan. Kemampuan individu dalam menyusun teks ini menjadi salah satu kompetensi untuk kepentingan akademisi maupun karir. Hal inilah yang mendasari pentingnya pemahaman terhadap konsep dasar berbahasa bagi individu dalam berkomunikasi."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

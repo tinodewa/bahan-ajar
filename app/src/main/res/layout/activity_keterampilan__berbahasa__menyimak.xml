@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Keterampilan_Berbahasa_Menyimak"
-    android:orientation="vertical">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Keterampilan_Berbahasa_Menyimak"
+android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                 android:id="@+id/viewpager_item_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Komponen Bahasa"
+                android:text="Keterampilan Berbahasa"
                 android:textColor="#80000000"
                 android:textSize="13sp"/>
 
@@ -40,15 +40,73 @@
                 android:layout_height="wrap_content"
                 android:text="Menyimak"
                 android:textColor="#111"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/keterampilan_berbahasa_menyimak_pdf"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:overScrollMode="always">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menyimak merupakan salah satu keterampilan berbahasa yang melibatkan bahasa lisan dalam prosesnya. Keterampilan menyimak bersifat reseptif karena dengan menyimak individu dapat memperoleh informasi. Menyimak melibatkan bahasa lisan dalam prosesnya. Menyimak  merupakan keterampilan berbahasa pertama yang diperoleh oleh individu mulai dari lahir yang selanjutnya diikuti dengan keterampilan berbicara. Hal inilah yang menyebabkan penting untuk mengajak anak berinteraksi sejak dini agar cepat belajar berbicara dari apa yang disimak melalui proses kognisi."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/menyimak_1"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proses inilah yang mengawali individu bisa belajar berbahasa. Sebagai contoh, anak yang lahir di lingkungan masyarakat yang menggunakan bahasa Indonesia maka dia akan belajar mengucapkan berbagai kata bahasa Indonesia. Dari apa yang disimak individu dapat mengakomodasi informasi menjadi pengetahuan barunya atau mengasimilasi dengan menyesuaikan informasi yang diperoleh dengan informasi yang telah dimiliki sebelumnya untuk menyeleksi atau melengkapi pengetahuannya. Menyimak ini dapat dilakukan secara intensif maupun ekstensif. Bersifat ekstensif karena bertujuan umum dan bebas terhadap ujaran seperti percakapan sehari-hari. Bersifat intensif karena bertujuan untuk kegiatan tertentu yang terbimbing dan terkontrol seperti mendengar penjelasan sebuah materi. Berikut deskripsi jenis-jenis keterampilan menyimak dalam berbahasa."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:src="@drawable/menyimak_2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seperti keterampilan berbahasa lainnya, proses menyimak dilakukan dalam tiga tahap yang terdiri atas (a) pra-menyimak, (b) saat menyimak, dan (c) pasca-menyimak."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/menyimak_3"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

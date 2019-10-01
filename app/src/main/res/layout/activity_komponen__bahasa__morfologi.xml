@@ -46,9 +46,59 @@
 
     </LinearLayout>
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/komponen_bahasa_morfologi_pdf"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:overScrollMode="always">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pada bidang linguistik, morfologi merupakan ilmu yang mempelajari tentang bentuk-bentuk kata serta perubahannya. Satuan dari  kata ini disebut dengan morfem.  Setiap morfem memiliki makna secara gramatikal dan leksikal. Morfem dibedakan menjadi dua yaitu, morfem bebas dan morfem terikat. Morfem bebas adalah morfem atau kata yang dapat berdiri sendiri seperti makan, kerja, topi, rumah, jujur, dan lainnya. Morfem terikat adalah morfem yang berupa unsur tambahan yang tidak dapat berdiri sendiri, dalam bahasa Indonesia dikenal dengan imbuhan. Imbuhan dalam bahasa Indonesia dapat berbentuk prefiks atau awalan (me-, di-,..), infiks atau sisipan (-em-, -er-,..), sufiks atau akhiran (-an, -kan,...), konfiks atau gabungan unsur (di-....-an, me-......-kan,...). Pada morfologi juga dikenal istilah alomorf. Alomorf merupakan realisasi bentuk morfem yang dapat berubah-ubah sesuai bentuk kata. Sebagai contoh, morfem “sapi” diwakili alomorf [sapi], sedangkan morfem berbentuk awalan “me-“ memiliki beberapa alomorf sebagai berikut."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/morfologi_1"
+                android:contentDescription="Alomorf"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selain bentuk kata, morfologi juga mencakup proses dari pembentukan kata itu sendiri. Proses morfologi ini dalam bahasa Indonesia dapat terjadi melalui beberapa proses sebagai berikut."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/morfologi_2"
+                android:contentDescription="Pembentukan kata morfologi"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proses morfologi ini akan berpengaruh pada pembentukan kalimat atau sintaksis secara gramatikal dan leksikal. Secara leksikal, morfem memiliki bentuk yang tetap sebagai kata yang bermakna sesungguhnya. Sedangkan secara gramatikal, morfem dapat berubah-ubah maknanya akibat proses pembubuhan, pengulangan, atau penggabungan sesuai dengan konteksnya."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Komponen_Bahasa_Semantik"
-    android:orientation="vertical">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Komponen_Bahasa_Semantik"
+android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,15 +40,123 @@
                 android:layout_height="wrap_content"
                 android:text="Semantik"
                 android:textColor="#111"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/komponen_bahasa_semantik_pdf"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:overScrollMode="always">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semantik adalah ilmu yang mempelajari tentang makna sebuah bahasa. Semantik memiliki unsur-unsur yaitu, simbol, hubungan, dan penamaan. Ketiga unsur inilah yang akan membentuk makna dari sebuah bahasa. Makna yang dipelajari mencakup makna pada tingkat kata, frasa, kalimat, dan unsur yang lebih besar dari wacana. Makna ini terdiri atas beberapa jenis sebagai berikut."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Makna Leksikal"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makna sebenarnya dari unsur-unsur bahasa sebagai lambang benda, peristiwa, atau lainnya. Contoh :"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/semantik_1"
+                android:contentDescription="kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. Makna Gramatikal"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makna yang muncul dari penggabungan unsur-unsur bahasa dalam konteks bahasa tertentu. Contoh :"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/semantik_2"
+                android:contentDescription="frasa"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c. Makna Denotatif"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makna sebernarnya dari unsur bahasa yang merujuk pada pembentukan frasa. Makna denotatif ini sama dengan makna leksikal. Contoh :"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/semantik_3"
+                android:contentDescription="Klausa"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d. Makna Konotatif"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makna kias dari unsur bahasa yang merujuk pada pembentukan frasa. Contoh :"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/semantik_4"
+                android:contentDescription="Klausa"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

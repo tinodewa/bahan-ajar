@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Komponen_Bahasa_Sintaksis"
-    android:orientation="vertical">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Komponen_Bahasa_Sintaksis"
+android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,15 +40,123 @@
                 android:layout_height="wrap_content"
                 android:text="Sintaksis"
                 android:textColor="#111"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/komponen_bahasa_sintaksis_pdf"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:overScrollMode="always">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sintaksis adalah ilmu yang mempelajari peraturan tentang penyusunan kalimat dalam berbahasa. Pada bahasa Indonesia, sintaksis merujuk pada pola kalimat yang umumnya disebut S-P-O-K. Sintaksis ini mempelajari tentang kata, frasa, klausa, dan kalimat."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Kata"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kata merupakan satuan terkecil dalam sintaksis yang berperan dalam pembentukan frasa, klausa, dan kalimat. Jenis kata terdiri atas kata penuh (kata dasar) dan kata tugas (imbuhan). Kata tugas terdiri atas kata benda, kata kerja, kata sifat, kata keterangan, hingga nominal. Kata tugas terdiri dari awalan, sisipan, akhiran, dan gabungan. Contoh:"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/sintaksis_1"
+                android:contentDescription="kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. Frasa"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frasa merupakan gabungan kata yang tidak memiliki predikat dalam strukturnya. Frasa memiliki fungsi gramatikal pada kalimat sesuai dengan kedudukan. Frasa terbagi berdasarkan (a) distribusinya, (b) kedudukan, dan (c) maknanya sebagai berikut."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@drawable/sintaksis_2"
+                android:contentDescription="frasa"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c. Klausa"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Klausa adalah bagian dari gramatial bahasa yang memiliki susunan kata melebihi frasa. Klausa terbentuk dari sebuah subjek dan satu predikat sehingga seringkali dianggap sebagai kalimat namun tidak sempurna. Klausa terbagi berdasarkan (a) strukturnya, (b) fungsi, dan (c) unsurnya."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@drawable/sintaksis_3"
+                android:contentDescription="Klausa"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d. Kalimat"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalimat adalah gabungan kata yang tersusun dan memiliki pola. Pada bahasa Indonesia kalimat yang sempurna memiliki pola S-P-O-K+Pelengkap. Kalimat berperan penting dalam komunikasi untuk menyampaikan, mempertegas, hingga menanyakan sebuah informasi. Kalimat terbagai menjadi beberapa jenis yaitu, berdasarkan (a) pengucapannya, (b) strukturnya, dan (c) fungsinya"
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@drawable/sintaksis_4"
+                android:contentDescription="Klausa"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

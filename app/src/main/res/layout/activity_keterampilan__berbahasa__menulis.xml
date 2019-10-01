@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Keterampilan_Berbahasa_Menulis"
-    android:orientation="vertical">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Keterampilan_Berbahasa_Menulis"
+android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                 android:id="@+id/viewpager_item_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Komponen Bahasa"
+                android:text="Keterampilan Berbahasa"
                 android:textColor="#80000000"
                 android:textSize="13sp"/>
 
@@ -40,15 +40,65 @@
                 android:layout_height="wrap_content"
                 android:text="Menulis"
                 android:textColor="#111"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/keterampilan_berbahasa_menulis_pdf"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:overScrollMode="always">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menulis merupakan salah satu keterampilan berbahasa yang melibatkan bahasa tulis dalam prosesnya. Menulis bersifat produktif karena menghasikan produk karya tulis dengan tujuan tertentu. Menulis menjadi salah satu alat ukur autentik tingkat pemahaman individu terhadap sesuatu khusunya untuk bidang akademik. Saat menulis, individu akan menuangkan pemikirannya dalam bentuk bahasa tulis untuk dirinya sendiri maupun individu lain. Pemikiran ini dapat diperoleh individu dari keterampilan bahasa lain seperti membaca dan menyimak. Menulis melibatkan berbagai kecakapan dan proses kognitif mulai dari munculnya ide, proses penuangan ide, hingga kelayakan ide tersebut untuk diterima orang lain dalam bentuk karya tulis."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:src="@drawable/menulis_1"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dari gambar dapat diamati bahwa informasi yang diperoleh telah diseleksi, dikreasikan, dan direvisi oleh individu untuk menghasilkan karya tulis dengan kriteria tertentu. Kriteria ini didasarkan pada sasaran dari karya tulis itu sendiri untuk pribadi, individu lain, atau kelompok tertentu. Pada prosesnya menulis dilakukan melalui tiga tahap sebagai berikut."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/menulis_2"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karya tulis yang dihasilkan dapat berupa karya tulis ilmiah maupun non ilmiah hingga menulis sastra yang bersifat kreatif. Saat menulis karya ilmiah, individu akan terikat pada aturan berkaitan dengan sistematika tertentu sedangkan saat menulis kreatif individu dapat menuliskan dengan bebas gagasannya dalam berbagai bentuk seperti puisi, pantun, atau narasi. Hasil karya tulis ini selanjutnya akan diasesmen oleh individu lain sebagai pembaca maupun penyimak berdasarkan kriteria tertentu."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

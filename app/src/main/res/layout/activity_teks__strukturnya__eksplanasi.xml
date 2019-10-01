@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Teks_Strukturnya_Eksplanasi"
-    android:orientation="vertical">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Teks_Strukturnya_Eksplanasi"
+android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                 android:id="@+id/viewpager_item_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Komponen Bahasa"
+                android:text="Teks &amp; Strukturnya"
                 android:textColor="#80000000"
                 android:textSize="13sp"/>
 
@@ -40,15 +40,58 @@
                 android:layout_height="wrap_content"
                 android:text="Eksplanasi"
                 android:textColor="#111"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/teks_strukturnya_eksplanasi_pdf"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:overScrollMode="always">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teks eksplanasi adalah teks yang bertujuan untuk menjelaskan proses terjadinya sesuatu secara  alamiah. Topik teks eksplanasi berisi penjelasan terjadinya fenomena alam atau sosial. Teks eksplanasi menjelaskan hubungan sebab akibat terjadinya fenomena untuk menjawab pertanyaan mengapa dan bagaimana. Teks eksplanasi bersifat non fiksi atau faktual karena fenomena yang dijelaskan haruslah fenomena yang bersifat ilmiah, benar-benar terjadi tanpa ada opini dari penulis. Berbeda dengan teks ekposisi, informasi yang disampaikan dalam teks eksplanasi tidak berusaha untuk mempengaruhi pembaca untuk meyakini informasi yang disajikan. Teks eksplanasi seringkali digunakan dalam penjelasan asal usul geografis, sains, maupun sejarah dengan kata konjungsi kausal dan waktu seperti pertama, kedua, selanjutnya, setelahnya, dan lainnya. Eksplanasi terdiri atas beberapa jenis sebagai berikut."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:src="@drawable/eksplanasi_1"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dari jenis-jenis teks eksplanasi dapat diamati bahwa pembahasan topik pada eksplanasi lebih berfokus pada fenomena umum berupa gejala alam bukan partisipan manusia. Hal inilah yang menyebabkan dalam teks eksplanasi sering ditemukan istilah-istilah ilmiah. Teks eksplanasi ini disusun berdasarkan stuktur yang terdiri atas (a) judul, (b) pernyataan umum, (c) deretan penjelas, dan (d) interpretasi."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/eksplanasi_2"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

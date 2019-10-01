@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Keterampilan_Berbahasa_Membaca"
-    android:orientation="vertical">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Keterampilan_Berbahasa_Membaca"
+android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                 android:id="@+id/viewpager_item_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Komponen Bahasa"
+                android:text="Keterampilan Berbahasa"
                 android:textColor="#80000000"
                 android:textSize="13sp"/>
 
@@ -40,15 +40,73 @@
                 android:layout_height="wrap_content"
                 android:text="Membaca"
                 android:textColor="#111"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/keterampilan_berbahasa_membaca_pdf"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:overScrollMode="always">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Membaca merupakan salah satu keterampilan berbahasa yang melibatkan bahasa tulis dalam prosesnya. Sebagai keterampilan bahasa tulis, membaca bersifat reseptif karena bertujuan untuk menginput informasi dalam suatu wacana tertulis. Membaca juga diyakini sebagai metode belajar yang utama dalam proses pembelajaran teoritis. Membaca melibatkan proses pengolahan informasi pada level kognitif individu sebagai sebuah siklus."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/membaca_1"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proses membaca akan melibatkan sebuah wacana tertulis yang berfungsi sebagai sumber informasi. Dari wacana inilah dilakukan proses membaca yang menghasilkan perolehan informasi. Selama proses ini, informasi akan diolah dalam level kognisi individu untuk diakomodasikan (pengubahan) atau diasimilasikan (penyesuaian) sebagai informasi untuk diterima, diadaptasi, atau ditolak sesuai informasi yang telah ada sebelumnya atau sebagai informasi baru. Dari informasi yang diperoleh inilah, selanjutnya individu dapat menulis sebuah wacana yang mengandung informasi tertentu untuk dibaca orang lain. Hal inilah yang mendasari hubungan antara keterampilan membaca dengan kecakapan literasi individu. Jenis kegiatan membaca berdasarkan tujuannya dibedakan sebagai berikut."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/membaca_2"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Setiap jenis kegiatan membaca ini akan melibatkan tahap-tahap dalam prosesnya yang meliputi tahap (a) prabaca, (b) membaca, dan (c) pasca baca. Setiap tahap ini memiliki indikator yang harus dicapai agar informasi dalam wacana dapat diperoleh dengan komprehensif."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/membaca_3"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

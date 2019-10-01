@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="illiyin.co.malang.i_study">
+    package="illiyin.co.malang.konsepdasarbahasa">
 
     <application
         android:allowBackup="true"
@@ -17,18 +17,18 @@
         <activity android:name=".Keterampilan_Berbahasa_Menyimak" />
         <activity android:name=".Keterampilan_Berbahasa_Menulis" />
         <activity android:name=".Keterampilan_Berbahasa_Membaca" />
-        <activity android:name=".Teks_Strukturnya" />
-        <activity android:name=".Keterampilan_Berbahasa" />
         <activity android:name=".Komponen_Bahasa_Semantik" />
         <activity android:name=".Komponen_Bahasa_Sintaksis" />
         <activity android:name=".Komponen_Bahasa_Morfologi" />
-        <activity android:name=".Orientasi_Materi" />
-        <activity
-            android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Komponen_Bahasa_Fonologi" />
-        <activity android:name=".Komponen_bahasa" />
+        <activity android:name=".Orientasi_Materi" />
+        <activity android:name=".Teks_Strukturnya" />
+        <activity android:name=".Keterampilan_Berbahasa" />
+        <activity android:name=".Komponen_Bahasa" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Splash_Screen"
             android:noHistory="true"
@@ -40,7 +40,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

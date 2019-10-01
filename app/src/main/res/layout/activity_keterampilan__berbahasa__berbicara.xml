@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Keterampilan_Berbahasa_Berbicara"
-    android:orientation="vertical">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Keterampilan_Berbahasa_Berbicara"
+android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                 android:id="@+id/viewpager_item_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Komponen Bahasa"
+                android:text="Keterampilan Berbahasa"
                 android:textColor="#80000000"
                 android:textSize="13sp"/>
 
@@ -40,15 +40,73 @@
                 android:layout_height="wrap_content"
                 android:text="Berbicara"
                 android:textColor="#111"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/keterampilan_berbahasa_berbicara_pdf"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:overScrollMode="always">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berbicara merupakan salah satu keterampilan berbahasa lisan yang bersifat produktif. Hasil dari keterampilan berbicara adalah ujaran yang berisi informasi untuk disampaikan pada individu lain. Ujaran sebagai aktivitas verbal dapat diproduksi tanpa ada batas waktu yang jelas antara satu kata dan kata lainnya. Individu otomatis akan merangkai berbagai kata yang telah dipahaminya untuk menyampaikan informasi dalam bentuk ujaran melalui perangkat berbicaranya."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/berbicara_1"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumber informasi yang digunakan dalam proses berbicara dapat berupa informasi tulis maupun lisan, sama halnya dengan keterampilan menulis yang bersifat produktif. Berbicara juga merupakan salah satu alat ukur tingkat intelegensi individu khususnya dalam hal pemahaman. Keterampilan berbicara akan terbentuk secara alami maupun dengan latihan khusus seperti berbicara untuk pidato dalam acara tertentu. Berbicara dapat dilakukan dalam bentuk monolog dan dialog dengan tujuan untuk memperoleh respon tertentu. Keterampilan berbicara dapat dibentuk dengan syarat (a) membutuhkan paling sedikit dua partisipan, (b) menggunakan bahasa yang dipahami bersama, (c) adanya referensi umum atau khusus, (d) terjadi pertukaran pemikiran, gagasan, atau ide. Berbicara berkaitan erat dengan keterampilan menyimak sebagai kegiatan retrivokal yang saling melengkapi."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/berbicara_2"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saat berbicara, penguasaan bahasa individu sangat mempengaruhi kejelasan informasi yang disampaikan meliputi (a) pelafalan, (b) volume dan kontrol suara, (c) gerak-gerik yang mengikuti, (d) pemilihan kata dan kalimat, (e) pengorganisasian ide, dan (f) keluwesan bahasa. Keterampilan berbicara ini terbagi menjadi berbicara formal (pidato, ceramah, deklamasi, dsb) dan berbicara non formal (percakapan) yang bertujuan untuk menghibur, menginformasikan, menstimulasi, meyakinkan, atau menggerakkan. Sebagai keterampilan berbahasa, berbicara dilakukan melalui tahap (a) pra-bicara, (b) bicara, dan (c) pasca bicara) sebagai berikut."
+                android:textSize="15dp"
+                android:paddingBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/berbicara_3"
+                android:contentDescription="Penbendaharaan kata"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

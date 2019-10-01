@@ -7,37 +7,37 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="illiyin.co.malang.i_study.ui.home.HomeFragment"
+        android:name="illiyin.co.malang.konsepdasarbahasa.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="illiyin.co.malang.i_study.ui.gallery.GalleryFragment"
+        android:name="illiyin.co.malang.konsepdasarbahasa.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="illiyin.co.malang.i_study.ui.slideshow.SlideshowFragment"
+        android:name="illiyin.co.malang.konsepdasarbahasa.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="illiyin.co.malang.i_study.ui.tools.ToolsFragment"
+        android:name="illiyin.co.malang.konsepdasarbahasa.ui.tools.ToolsFragment"
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
         android:id="@+id/nav_share"
-        android:name="illiyin.co.malang.i_study.ui.share.ShareFragment"
+        android:name="illiyin.co.malang.konsepdasarbahasa.ui.share.ShareFragment"
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_send"
-        android:name="illiyin.co.malang.i_study.ui.send.SendFragment"
+        android:name="illiyin.co.malang.konsepdasarbahasa.ui.send.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
 </navigation>
